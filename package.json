@@ -1,0 +1,26 @@
+{
+  "name": "platzom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src/platzom.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecoronado89/ProyectoPlatzi.git"
+  },
+  "author": "Eder Coronado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecoronado89/ProyectoPlatzi/issues"
+  },
+  "homepage": "https://github.com/ecoronado89/ProyectoPlatzi#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
